@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/backs1"
+        android:src="@drawable/launch"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:paddingLeft="12dp"
+        app:contentPaddingRight="12dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="5dp"
+        android:outlineSpotShadowColor="@color/DodgerBlue"
+        android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+        app:cardBackgroundColor="@color/LightGrey"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="Team Details!"
+        android:textSize="27dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/mail"
+        android:text="User Name(Registered Mail)"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/Pass"
+        android:text="Password/Team Name"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        />
+        <TextView
+            android:id="@+id/clge"
+            android:text="College Name"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/Depart"
+            android:text="Department Name"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/event"
+            android:text="Event : "
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/mobile"
+            android:text="Mobile : "
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/P1"
+            android:text="Participant 1 :"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/P2"
+            android:text="Participant 2 :"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/P3"
+            android:text="Participant 3 : "
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/P4"
+            android:text="Participant 4 : "
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/P5"
+            android:text="Participant 5 :"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/P6"
+            android:text="Participant 6 :"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/P7"
+            android:text="Participant 7 :"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

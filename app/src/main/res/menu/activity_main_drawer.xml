@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_live_tv_black_24dp"
+            android:title="Live Show" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_create_black_24dp"
+            android:title="Rules" />
+        <item
+            android:id="@+id/nav_aboutus1"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Register" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_directions_black_24dp"
+            android:title="Login" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_developer1"-->
+<!--            android:icon="@drawable/ic_menu_camera"-->
+<!--            android:title="Developer Team" />-->
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_contacts_black_24dp"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_gallery">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.vicky.hackstraz.ui.home.Home2Fragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.vicky.hackstraz.ui.gallery.Home1Fragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home1" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.vicky.hackstraz.ui.slideshow.Slideshow2Fragment"
+        android:label="Live Shows"
+        tools:layout="@layout/fragment_home2" />
+
+    <fragment
+        android:id="@+id/nav_rules"
+        android:name="com.vicky.hackstraz.Rules"
+        android:label="Rules"
+        tools:layout="@layout/fragment_rules" />
+    <fragment
+        android:id="@+id/nav_aboutus1"
+        android:name="com.vicky.hackstraz.AboutUs"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.vicky.hackstraz.ui.tools.Tools1Fragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_tools1" />
+
+    <fragment
+        android:id="@+id/nav_developer1"
+        android:name="com.vicky.hackstraz.Developers"
+        android:label="Developer Team"
+        tools:layout="@layout/fragment_developers" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.vicky.hackstraz.ui.share.Share1Fragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_share1" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.vicky.hackstraz.ui.send.Send1Fragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_send1" />
+</navigation>

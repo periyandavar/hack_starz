@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1021728651559",
+    "firebase_url": "https://hackstarz.firebaseio.com",
+    "project_id": "hackstarz",
+    "storage_bucket": "hackstarz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021728651559:android:26fe9980b4fe5f25911102",
+        "android_client_info": {
+          "package_name": "com.vicky.hackstraz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021728651559-s7etsa796ic5i39ludikg156rcr1tdme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXj9wcLBiEPB57CmydaMXGEO5w2JZsHvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021728651559-s7etsa796ic5i39ludikg156rcr1tdme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
